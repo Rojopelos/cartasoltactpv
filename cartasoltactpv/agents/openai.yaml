@@ -1,0 +1,14 @@
+interface:
+  display_name: cartasoltactpv
+  short_description: Convierte cartas a Excel de soltac con las reglas acordadas
+  default_prompt: Usa $cartasoltactpv para convertir esta carta al Excel de importacion
+    de soltac TPV.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
